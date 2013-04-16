@@ -1,0 +1,19 @@
+<!ENTITY cloakingdevice.mainmenu.label            "Cloaking Device">
+<!ENTITY cloakingdevice.ipadmenu.label            "Apple iPad All Versions">
+<!ENTITY cloakingdevice.ipadv1.label            "Apple iPad First Generation iOS 5.1.1">
+<!ENTITY cloakingdevice.ipadv2.label            "Apple iPad Second Generation iOS 6.1">
+<!ENTITY cloakingdevice.ipadv3.label            "Apple iPad Third Generation iOS 6.1">
+<!ENTITY cloakingdevice.ipadv4.label            "Apple iPad Fourth Generation iOS 6.1">
+<!ENTITY cloakingdevice.ipadm.label            "Apple iPad Mini iOS 6.1">
+<!ENTITY cloakingdevice.iphonemenu.label            "Apple iPhone All Versions">
+<!ENTITY cloakingdevice.iphonev1.label            "Apple iPhone (First Generation) iOS 1.0">
+<!ENTITY cloakingdevice.iphonev3g.label            "Apple iPhone 3G (Second Generation) iOS 2.0">
+<!ENTITY cloakingdevice.iphonev3gs.label            "Apple iPhone 3GS (Third Generation) iOS 3.0">
+<!ENTITY cloakingdevice.iphonev4.label            "Apple iPhone 4 iOS (Fourth Generation) 4.0">
+<!ENTITY cloakingdevice.iphonev4s.label            "Apple iPhone 4S iOS 5.0">
+<!ENTITY cloakingdevice.iphonev5.label            "Apple iPhone 5 (Fifth Generation) iOS 6.0">
+<!ENTITY cloakingdevice.androidphonesmenu.label            "Google Android Phones">
+<!ENTITY cloakingdevice.androidtabletsmenu.label            "Google Android Tablets">
+<!ENTITY cloakingdevice.hello.label            "hello">
+<!ENTITY cloakingdevice.helloMenu.accesskey    "l">
+<!ENTITY cloakingdevice.helloItem.accesskey    "H">

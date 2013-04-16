@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://cloakingdevice/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM "chrome://cloakingdevice/locale/browserOverlay.dtd">
+
+<overlay id="cloakingdevice-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://cloakingdevice/content/browserOverlay.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="cloakingdevice-string-bundle"
+      src="chrome://cloakingdevice/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <menubar id="main-menubar">
+    <menu id="cloakingdevice-hello-menu" label="&cloakingdevice.mainmenu.label;"
+      accesskey="&cloakingdevice.helloMenu.accesskey;" insertafter="helpMenu">
+		<menupopup id="menu_ToolsPopup">
+		  <menu id="cloakingdevice-ipad-menu" label="&cloakingdevice.ipadmenu.label;"
+			accesskey="&cloakingdevice.helloMenu.accesskey;"
+			insertbefore="devToolsEndSeparator">
+			<menupopup>
+			  <menuitem id="cloakingdevice-ipad-menu-item"
+				label="&cloakingdevice.ipadv1.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIpad(event);" />
+				<menuitem id="cloakingdevice-ipad-menu-item2"
+				label="&cloakingdevice.ipadv2.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIpad(event);" />
+				<menuitem id="cloakingdevice-ipad-menu-item3"
+				label="&cloakingdevice.ipadv3.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIpad(event);" />
+				<menuitem id="cloakingdevice-ipad-menu-item4"
+				label="&cloakingdevice.ipadv4.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIpad(event);" />
+				<menuitem id="cloakingdevice-ipad-menu-item5"
+				label="&cloakingdevice.ipadm.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIpad(event);" />
+			</menupopup>
+		  </menu>
+		  <menu id="cloakingdevice-iphone-menu" label="&cloakingdevice.iphonemenu.label;"
+			accesskey="&cloakingdevice.helloMenu.accesskey;"
+			insertbefore="devToolsEndSeparator">
+			<menupopup>
+			  <menuitem id="cloakingdevice-iphone-menu-item"
+				label="&cloakingdevice.iphonev1.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone(event);" />
+				<menuitem id="cloakingdevice-iphone-menu-item2"
+				label="&cloakingdevice.iphonev3g.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone4(event);" />
+				<menuitem id="cloakingdevice-iphone-menu-item3"
+				label="&cloakingdevice.iphonev3gs.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone4(event);" />
+				<menuitem id="cloakingdevice-iphone-menu-item4"
+				label="&cloakingdevice.iphonev4.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone4(event);" />
+				<menuitem id="cloakingdevice-iphone-menu-item5"
+				label="&cloakingdevice.iphonev4s.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone4(event);" />
+				<menuitem id="cloakingdevice-iphone-menu-item6"
+				label="&cloakingdevice.iphonev5.label;"
+				accesskey="&cloakingdevice.helloItem.accesskey;"
+				oncommand="CloakingDevice.BrowserOverlay.openIphone4(event);" />
+			</menupopup>
+		  </menu>
+		</menupopup>
+    </menu>
+  </menubar>
+
+  <vbox id="appmenuSecondaryPane">
+    <menu id="cloakingdevice-hello-menu-2" label="&cloakingdevice.hello.label;"
+      accesskey="&cloakingdevice.helloMenu.accesskey;"
+      insertafter="appmenu_addons">
+      <menupopup>
+        <menuitem id="cloakingdevice-hello-menu-item-2"
+          label="&cloakingdevice.hello.label;"
+          accesskey="&cloakingdevice.helloItem.accesskey;"
+          oncommand="CloakingDevice.BrowserOverlay.sayHello(event);" />
+      </menupopup>
+    </menu>
+  </vbox>
+</overlay>

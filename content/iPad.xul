@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://cloakingdevice/skin/iPad.css" ?>
+  
+<overlay id="xulschoolhello-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script type="application/x-javascript" src="chrome://cloakingdevice/content/iPad.js" />
+
+<hbox id="ipad-hbox">
+	<vbox id="ipad-screen">
+	
+	</vbox>
+</hbox>
+
+</overlay>

@@ -1,0 +1,11 @@
+#ipad-hbox {
+	width:971px;
+	height:1283px;
+	background-image:url('chrome://cloakingdevice/content/images/iPad_2_White_Real.png');
+}
+#ipad-screen {
+	margin:120px 0px 0px 100px;
+	width:768px;
+	height:1024px; 
+	background-color:#333; 
+}

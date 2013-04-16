@@ -1,0 +1,21 @@
+#iphone-hbox {
+	width:400px;
+	height:757px;
+	background-image:url('chrome://cloakingdevice/content/images/iphone4_gray_Real.png');
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+#iphone-screen {
+	
+	width:320px !important;
+	height:480px !important; 
+	background-color:#333; 
+	overflow:hidden;
+}
+#browserTable {
+	margin:150px 0px 200px 40px;
+	width:320px !important;
+	height:460px !important;
+	float:left;
+	overflow:hidden;
+}
